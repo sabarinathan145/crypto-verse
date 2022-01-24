@@ -1,12 +1,12 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
+import { Switch, Route } from 'react-router-dom';
+import { Layout, Typography } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
 const App = () => (
-  <div className="app">
+<div className="app">
     <div className="navbar">
       <Navbar />
     </div>
@@ -33,10 +33,9 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
-          <Link to="/">
-            Cryptoverse Inc.
-          </Link> <br />
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021 
+       <a href="http://sabar-1.herokuapp.com/">Sabar_I</a>.     
+          <br />
           All Rights Reserved.
         </Typography.Title>
       </div>

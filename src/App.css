@@ -129,6 +129,9 @@ a:hover{
     .home-title{
         font-size: 1.4rem !important;
     }
+    .link{
+        font-size: 0.5rem !important;
+    }
     .show-more{
         font-size: 1.3rem !important;
     }
@@ -224,6 +227,9 @@ a:hover{
 
 .coin-desc-link a{
     color: var(--pink);
+}
+.link{
+    font-size: 0.8em;
 }
 
 .coin-desc-link h3{
