@@ -34,7 +34,7 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021 
-       <a href="http://sabar-1.herokuapp.com/">Sabar_I</a>.     
+       <a href="https://kssn.netlify.app/">Sabar_I</a>.     
           <br />
           All Rights Reserved.
         </Typography.Title>
